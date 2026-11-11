@@ -7,28 +7,19 @@ The site follows the archival organization of [johncwmckinley.com](https://johnc
 ## Included
 
 - Home page: `index.html`
-- Full HTML reading page: `papers/econ-10-do-not-vote-the-rich-away.html`
-- Exact LaTeX source: `papers/econ-10-do-not-vote-the-rich-away.tex`
+- ECON 10 draft: `papers/econ-10-do-not-vote-the-rich-away.html` and original `papers/econ-10-do-not-vote-the-rich-away.tex`
+- ECON 6 draft: `papers/econ-6-symmetric-monopoly-objection.html` and original `papers/econ-6-symmetric-monopoly-objection.tex`
 - Styling: `assets/style.css`
 
-**ECON 10 is a working draft, not a Zenodo publication.** Do not assign or imply a DOI until the author deposits it.
+**ECON 6 and ECON 10 are working drafts, not Zenodo publications.** Do not assign or imply a DOI until the author deposits them.
 
-The homepage links to selected existing DOI-bearing works (ECON 0A, ECON 0B, and ECON 1A) without reclassifying draft manuscripts as publications.
+The homepage links to confirmed existing DOI-bearing works (ECON 0A, ECON 0B, ECON 0C, and ECON 1A) without reclassifying draft manuscripts as publications.
 
 ## Hosting
 
 This is plain HTML and CSS, no server or build process.
 
-To enable GitHub Pages:
-
-1. Go to this repository's **Settings → Pages**.
-2. Under **Build and deployment**, select **Deploy from a branch**.
-3. Select **main** and **/(root)**, then **Save**.
-
-The expected address once Pages is enabled is:
-`https://deepsparkai.github.io/jchristianmckinleylatexarchive/`
-
-GitHub Pages serves `index.html` automatically. Relative links work both at the project URL and with a future custom domain.
+The site is deployed by GitHub Pages from the default branch and uses the custom domain [jchristianmckinley.com](https://jchristianmckinley.com/). GitHub Pages serves `index.html` automatically, and relative links also work at the repository’s Pages project URL.
 
 ## Authoring and status
 
