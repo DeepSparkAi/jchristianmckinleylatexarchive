@@ -7,9 +7,9 @@ The site follows the archival organization of [johncwmckinley.com](https://johnc
 ## Included
 
 - Home page: `index.html`
-- ECON 10 draft: `papers/econ-10-do-not-vote-the-rich-away.html` and original `papers/econ-10-do-not-vote-the-rich-away.tex`
-- ECON 6 draft: `papers/econ-6-symmetric-monopoly-objection.html` and original `papers/econ-6-symmetric-monopoly-objection.tex`
-- ECON 5 draft: `papers/econ-5-for-the-people-by-force.html` and original `papers/econ-5-for-the-people-by-force.tex`
+- ECON 10 draft: `papers/econ-10-do-not-vote-the-rich-away.html` and website LaTeX copy `papers/econ-10-do-not-vote-the-rich-away.tex`
+- ECON 6 draft: `papers/econ-6-symmetric-monopoly-objection.html` and website LaTeX copy `papers/econ-6-symmetric-monopoly-objection.tex`
+- ECON 5 draft: `papers/econ-5-for-the-people-by-force.html` and website LaTeX copy `papers/econ-5-for-the-people-by-force.tex`
 - Styling: `assets/style.css`
 
 **ECON 5, ECON 6, and ECON 10 are working drafts, not Zenodo publications.** Do not assign or imply a DOI until the author deposits them.
@@ -26,5 +26,6 @@ The site is deployed by GitHub Pages from the default branch and uses the custom
 
 - Do not silently edit or rewrite an archived author source.
 - Working drafts stay in the drafts section until the author reports a DOI-bearing deposit.
-- The original LaTeX file controls exact manuscript wording; HTML is a reading version.
+- The original LaTeX file in [Other-Humanities](https://github.com/DeepSparkAi/Other-Humanities) controls manuscript wording; HTML is a reading version.
+- This website's downloadable ECON 6 and ECON 10 TeX copies omit an ORCID reference associated with a different publishing byline. Manuscript arguments and text remain unchanged. The original research-repository sources are not altered.
 - No backend, database, analytics, tracking, third-party scripts, or build dependencies.
