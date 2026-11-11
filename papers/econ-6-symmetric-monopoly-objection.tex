@@ -1,0 +1,138 @@
+\PassOptionsToPackage{capitalise,nameinlink,noabbrev}{cleveref}
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage[hidelinks,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\usepackage{cleveref}
+\usepackage{orcidlink}
+
+\newcommand{\blfootnote}[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+\title{The Symmetric Monopoly Objection:\\
+A Consistency Constraint on Antitrust and Single-Payer Advocacy}
+
+\author{J.~Christian McKinley\,\orcidlink{0009-0005-7097-5035}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+\blfootnote{Zenodo DOI: \texttt{[to be assigned on deposit]}.}
+
+\begin{abstract}
+A position that supports antitrust action against private monopolies while simultaneously supporting a single-payer state monopoly in another sector is, on its face, inconsistent with respect to monopoly itself. This paper does not argue for or against either position. It argues only that the conjunction is structurally inconsistent, and that consistency requires either (i) abandoning the antitrust objection to private concentration, (ii) abandoning the preference for state monopoly in healthcare, or (iii) producing a principled distinction that survives scrutiny. The standard distinctions offered---public purpose, democratic accountability, market failure---are examined and shown to either fail symmetrically or reduce to the claim that the speaker likes one monopoly and dislikes the other. The constructive remainder is a symmetric deregulatory proposal in both sectors, offered not as policy advocacy but as the unique resolution that preserves the underlying anti-monopoly principle without selective application.
+\end{abstract}
+
+\section{Scope and What This Paper Does Not Claim}
+
+This is a narrow consistency paper. It does not argue:
+\begin{itemize}[leftmargin=*]
+  \item that antitrust enforcement is wrong;
+  \item that single-payer healthcare is wrong;
+  \item that any particular regulatory regime is empirically optimal.
+\end{itemize}
+It argues only that the conjunction of \emph{(a)} ``this private monopoly should be broken up because it is a monopoly'' and \emph{(b)} ``healthcare should be administered by a single state payer'' is logically incompatible \emph{when held by the same advocate} unless a principled distinction is supplied that does not reduce to preference. The argument presupposes rather than re-derives results from \cite{mckinley0A,mckinley0B,mckinley4,mckinley5}.
+
+\section{The Two Positions}
+
+Let $P$ be the position that a private firm achieving monopoly or near-monopoly status in a market is, by virtue of that status alone, a legitimate target of state action to dissolve or restructure it. The historical paradigm is the 1984 breakup of AT\&T; the contemporary instance is opposition to airline mergers that would produce dominant carriers.
+
+Let $Q$ be the position that healthcare in the United States should be financed and administered by a single state payer, with private insurance either eliminated or reduced to supplemental coverage.
+
+The structural form of $P$ is: \emph{concentration of provision in a single entity is harmful and should be prevented}.
+
+The structural form of $Q$ is: \emph{concentration of provision in a single entity is beneficial and should be enacted}.
+
+These are contradictories with respect to the predicate ``concentration of provision in a single entity.'' The contradiction is not dissolved by noting that the entities differ (one is private, one is public); that observation is the proposed distinction, and it must do real work, not merely be stated.
+
+\section{Candidate Distinctions and Why They Fail}
+
+\subsection{The public-purpose distinction}\label{sec:public-purpose}
+
+\emph{Claim:} A state monopoly serves the public; a private monopoly serves shareholders. Therefore concentration is harmful in the second case and beneficial in the first.
+
+\emph{Response:} This argument equivocates between \emph{purpose} and \emph{performance}. Whether an institution \emph{serves} the public is an empirical claim about its outputs, not an analytic feature of who owns it. A private monopoly that delivers low-cost service of high quality serves the public regardless of its ownership structure; a state monopoly that delivers rationed, low-quality service fails to serve the public regardless of its mandate. To treat ownership as definitionally equivalent to public service is to assume what was to be shown.
+
+\subsection{The democratic-accountability distinction}\label{sec:democratic-accountability}
+
+\emph{Claim:} A state monopoly is accountable to voters; a private monopoly is not.
+
+\emph{Response:} Voter accountability over a single national institution is, in practice, attenuated to the point of near-fiction. The voter selects a legislator who selects appointees who select administrators who write rules that bind the citizen. The chain of accountability between a private customer and a private firm, by contrast, is one step: the customer can stop buying. Whatever the merits of voter accountability in principle, it is not obvious that it is \emph{tighter} than exit, and exit is precisely what monopoly removes. The state monopoly removes exit by law; the private monopoly removes it by capture. Both remove the same thing.
+
+\subsection{The market-failure distinction}\label{sec:market-failure}
+
+\emph{Claim:} Healthcare is a special case because of information asymmetry, externalities, and the inelasticity of demand at the point of need. Therefore concentration in healthcare is not analogous to concentration in telecommunications or air travel.
+
+\emph{Response:} This is the most serious of the candidate distinctions and the only one that does any analytic work. But it proves too much and too little. Too much, because if accepted in its strong form, it licenses state monopoly in every sector with information asymmetry (which is most of them) and inelastic demand (food, water, shelter, energy). Too little, because the market-failure argument, even if granted, supports \emph{regulation} of healthcare provision, not \emph{monopolization} of it. One can address externalities and information asymmetry without mandating that all provision flow through a single payer. The argument from market failure to single payer is therefore a non-sequitur unless supplemented by an additional premise---and that additional premise, when stated, will turn out to be either an efficiency claim (which is empirical and disputed) or a distributive claim (which is the topic of \cite{mckinley0A,mckinley0B} and need not be re-litigated here).
+
+\subsection{The two hidden premises}
+
+The candidate distinctions surveyed above share a common feature: each, when pressed, retreats to a pair of unstated background commitments that do the actual argumentative work. These commitments are rarely articulated because articulating them invites scrutiny, but they can be reconstructed from the pattern of which monopolies generate objection and which do not.
+
+\paragraph{Premise H1: Concentrated private wealth is morally suspect by virtue of being concentrated and private.}
+Under H1, the objection to a private monopoly is not that it is a monopoly but that its proceeds accrue to private parties who are, by the fact of accrual, taken to have acquired something they should not have. The monopoly status is incidental; the underlying objection is to private accumulation at scale. This explains why the antitrust objection to private concentration intensifies precisely as the firm becomes profitable, and why unprofitable private concentrations (failing newspapers, regional utilities operating at break-even) attract little anti-monopoly energy. The objection tracks accumulation, not concentration.
+
+\paragraph{Premise H2: State action is presumptively legitimate and presumptively benign.}
+Under H2, a monopoly held by the state is not an instance of the same structural phenomenon as a monopoly held by a private firm, because state action carries a presumption of legitimacy that private action does not. This presumption is what allows ``concentration in a single entity'' to read as harmful when the entity is private and beneficial when the entity is public, without the speaker registering the symmetry.
+
+\paragraph{Why the premises cover for each other.}
+H1 alone would license confiscation but not state monopoly: one could redistribute the proceeds of private concentration without nationalizing the sector. H2 alone would license state monopoly but not selective antitrust: one could prefer state provision without regarding private provision as suspect. The conjunction of antitrust-against-private-concentration with single-payer-state-provision requires both. H1 supplies the negative valence of private monopoly; H2 supplies the positive valence of state monopoly. Each premise's weakness is hidden by the other's apparent strength.
+
+\paragraph{Why both premises fail.}
+H1 is a moral intuition, not an argument. It treats the size of a private fortune as evidence of wrongdoing without specifying the wrong. The premise that wealth above some threshold is illegitimately held requires either a theory of legitimate acquisition (in which case the threshold falls out of that theory rather than out of size) or a theory of distributive entitlement (which is the topic of \cite{mckinley0A,mckinley0B} and is shown there to rest on assumed rather than demonstrated entitlements). Without supplementation, H1 is the bare assertion that successful private actors are bad.
+
+H2 is the assumption that state action inherits a legitimacy that private action lacks. The grounds usually offered---democratic authorization, public purpose, accountability to voters---were addressed in \crefrange{sec:public-purpose}{sec:democratic-accountability} and shown not to do the work. What remains of H2, when those grounds are removed, is the bare assertion that the state is good. That is not a premise. That is a sentiment.
+
+The candidate distinctions in \crefrange{sec:public-purpose}{sec:market-failure} fail because they are surface rationalizations of H1 and H2. Once the premises are stated explicitly, the rationalizations are unnecessary; once the rationalizations are removed, the premises stand exposed as unsupported.
+
+\subsection{The summary}
+
+Each candidate distinction either fails on its own terms or, when it succeeds, fails to license the asymmetric conclusion. What remains is the bare preference: the speaker dislikes one monopoly and likes the other. That is not a distinction. That is a position.
+
+\section{The Symmetric Resolution}
+
+If the anti-monopoly principle is genuine---if concentration of provision in a single entity is in fact what is objected to---then the principle must apply in both directions. Two resolutions preserve consistency:
+
+\begin{enumerate}[leftmargin=*]
+  \item \textbf{Symmetric tolerance.} Accept concentration in both sectors. Permit large carrier mergers and accept single-payer provision. This is internally consistent but abandons the anti-monopoly principle entirely.
+  \item \textbf{Symmetric deregulation.} Reject coercive concentration in both sectors. Permit customers to purchase from any provider; permit insurers to offer any package at any price; permit patients to seek care from any practitioner; eliminate the mandate that particular conditions be covered in every policy.
+\end{enumerate}
+
+The second resolution is the one that preserves the original principle. It says: \emph{if you objected to AT\&T because customers had no exit, then the constructive response in healthcare is to expand exit, not to eliminate it}. A risk-pooling contract priced freely between insurer and insured is the structural opposite of a single-payer mandate. The current U.S. arrangement, in which insurance must cover specified categories regardless of the insured's preferences and risk profile, is not a risk contract; it is a transfer program administered through the insurance industry. Calling it insurance is a category error in the sense developed in \cite{mckinley5}: a coercive transfer described in the vocabulary of voluntary exchange.
+
+\section{What the Paper Does Not Resolve}
+
+The paper does not resolve whether symmetric deregulation would produce better aggregate outcomes than the status quo. That is an empirical question about which reasonable people disagree, and it lies outside the consistency claim made here. The paper resolves only the following: an advocate who endorses antitrust against private concentration and single payer for medical concentration, without supplying a principled distinction, is holding two views that contradict one another at the level of principle. The contradiction is not resolved by repetition, by appeal to good intentions, or by the assertion that healthcare is different. It is resolved only by either (i) abandoning one of the two positions, or (ii) producing a distinction that does the work the candidates surveyed here do not do.
+
+\section{Conclusion}
+
+The anti-monopoly principle, if held, applies symmetrically. If concentration of provision is objectionable when private, it is objectionable when public, unless a principled distinction is supplied. The candidate distinctions surveyed here---public purpose, democratic accountability, market failure---do not do the work asked of them. The consistent positions are therefore symmetric tolerance or symmetric deregulation. Selective application is not a third position; it is the absence of a position.
+
+\begin{thebibliography}{9}
+
+\bibitem{mckinley0A}
+J.~C. McKinley, \emph{Destructive Kindness}, Zenodo (2025). \href{https://doi.org/10.5281/zenodo.17773660}{\texttt{10.5281/zenodo.17773660}}.
+
+\bibitem{mckinley0B}
+J.~C. McKinley, \emph{Taxation as Legislated Crime via Majority Hegemony}, Zenodo (2025). \href{https://doi.org/10.5281/zenodo.18530711}{\texttt{10.5281/zenodo.18530711}}.
+
+\bibitem{mckinley4}
+J.~C. McKinley, \emph{Competition as Tyranny}, manuscript in preparation.
+
+\bibitem{mckinley5}
+J.~C. McKinley, \emph{For the People, By Force}, manuscript in preparation.
+
+\end{thebibliography}
+
+\end{document}
