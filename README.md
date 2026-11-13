@@ -7,12 +7,13 @@ The site follows the archival organization of [johncwmckinley.com](https://johnc
 ## Included
 
 - Home page: `index.html`
+- ECON 24 draft: `papers/econ-24-entitlement-cascade.html` and website LaTeX copy `papers/econ-24-entitlement-cascade.tex`
 - ECON 10 draft: `papers/econ-10-do-not-vote-the-rich-away.html` and website LaTeX copy `papers/econ-10-do-not-vote-the-rich-away.tex`
 - ECON 6 draft: `papers/econ-6-symmetric-monopoly-objection.html` and website LaTeX copy `papers/econ-6-symmetric-monopoly-objection.tex`
 - ECON 5 draft: `papers/econ-5-for-the-people-by-force.html` and website LaTeX copy `papers/econ-5-for-the-people-by-force.tex`
 - Styling: `assets/style.css`
 
-**ECON 5, ECON 6, and ECON 10 are working drafts, not Zenodo publications.** Do not assign or imply a DOI until the author deposits them.
+**ECON 5, ECON 6, ECON 10, and ECON 24 are working drafts, not Zenodo publications.** Do not assign or imply a DOI until the author deposits them.
 
 The homepage links to confirmed existing DOI-bearing works (ECON 0A, ECON 0B, ECON 0C, and ECON 1A) without reclassifying draft manuscripts as publications.
 
